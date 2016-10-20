@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">GPS</string>
+    //main interface
+    <string name="textViewFavoris">Favoris</string>
+    <string name="textViewHistorique">Historique</string>
+    <string name="textViewNouveau">Nouveau</string>
+
+    //keyword interface
+    <string name="textViewKeyword">Nouveau</string>
+    <string name="title_activity_maps">Map</string>
+
+    //NewDestination interface
+    <string name="butQRCode">QR Code</string>
+    <string name="butAddress">ADRESSE</string>
+
+</resources>

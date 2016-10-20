@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="be.toutoum.helb.gps.MainActivity"
+    android:background="@drawable/parchemin2">
+
+    <TextView
+        android:text="@string/textViewHistorique"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textViewHistorique"
+        android:layout_alignBaseline="@+id/butHistorique"
+        android:layout_alignBottom="@+id/butHistorique"
+        android:layout_alignStart="@+id/textViewFavoris"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+        android:textStyle="normal|bold"
+        android:textAllCaps="false" />
+
+    <Button
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_marginEnd="15dp"
+        android:layout_marginBottom="20dp"
+        android:id="@+id/butLogo"
+        android:background="@drawable/potatos"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true" />
+
+    <Button
+        android:id="@+id/butHistorique"
+        android:background="@drawable/history2"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_marginTop="32dp"
+        android:onClick="intentHistorique"
+        android:layout_below="@+id/butFavoris"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:layout_marginTop="15dp"
+        android:id="@+id/butFavoris"
+        android:background="@drawable/bookmark"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:onClick="intentFavoris"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:text="@string/textViewFavoris"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textViewFavoris"
+        android:typeface="normal"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+        android:textStyle="normal|bold"
+        android:textAllCaps="false"
+        android:layout_alignBaseline="@+id/butFavoris"
+        android:layout_alignBottom="@+id/butFavoris"
+        android:layout_toEndOf="@+id/butFavoris" />
+
+    <Button
+        android:id="@+id/butNouveau"
+        android:background="@drawable/shieldadd"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_marginTop="33dp"
+        android:onClick="intentNouveau"
+        android:layout_below="@+id/butHistorique"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:text="@string/textViewNouveau"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textViewNouveau"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+        android:textStyle="normal|bold"
+        android:textAllCaps="false"
+        android:layout_alignBaseline="@+id/butNouveau"
+        android:layout_alignBottom="@+id/butNouveau"
+        android:layout_toEndOf="@+id/butNouveau" />
+</RelativeLayout>
