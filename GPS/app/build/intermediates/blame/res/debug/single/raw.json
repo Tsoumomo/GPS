@@ -1,10 +1,10 @@
 [
     {
-        "merged": "C:\\Users\\so-ju\\Desktop\\GPS\\app\\build\\intermediates\\res\\merged\\debug\\raw\\zxing_beep.ogg",
-        "source": "C:\\Users\\so-ju\\Desktop\\GPS\\app\\build\\intermediates\\exploded-aar\\com.journeyapps\\zxing-android-embedded\\3.2.0\\res\\raw\\zxing_beep.ogg"
+        "merged": "C:\\Users\\thoma\\Desktop\\GPS\\trunk\\GPS\\app\\build\\intermediates\\res\\merged\\debug\\raw\\zxing_beep.ogg",
+        "source": "C:\\Users\\thoma\\Desktop\\GPS\\trunk\\GPS\\app\\build\\intermediates\\exploded-aar\\com.journeyapps\\zxing-android-embedded\\3.2.0\\res\\raw\\zxing_beep.ogg"
     },
     {
-        "merged": "C:\\Users\\so-ju\\Desktop\\GPS\\app\\build\\intermediates\\res\\merged\\debug\\raw\\gtm_analytics",
-        "source": "C:\\Users\\so-ju\\Desktop\\GPS\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-analytics-impl\\9.6.1\\res\\raw\\gtm_analytics"
+        "merged": "C:\\Users\\thoma\\Desktop\\GPS\\trunk\\GPS\\app\\build\\intermediates\\res\\merged\\debug\\raw\\gtm_analytics",
+        "source": "C:\\Users\\thoma\\Desktop\\GPS\\trunk\\GPS\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-analytics-impl\\9.6.1\\res\\raw\\gtm_analytics"
     }
 ]
