@@ -2,7 +2,6 @@ package be.toutoum.helb.gps;
 
 import android.app.Activity;
 import android.content.Intent;
-import android.net.Uri;
 import android.os.Handler;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
@@ -17,11 +16,12 @@ import com.google.zxing.integration.android.IntentResult;
 public class NewDestination extends AppCompatActivity  {
     private Button scan_btn;
     public String reponse =  "";
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_new_destination);
-        scan_btn = (Button) findViewById(R.id.butQRCode);
+        scan_btn = (Button) findViewById(R.id.bQRCode);
         final Activity activity = this;
 
         scan_btn.setOnClickListener(new View.OnClickListener() {
@@ -52,7 +52,7 @@ public class NewDestination extends AppCompatActivity  {
 
                 new Handler().postDelayed(new Runnable(){
                     public void run(){
-                        Intent i = new Intent(getApplicationContext(),BDActivity.class);
+                        Intent i = new Intent(getApplicationContext(),QRCodeActivity.class);
                         i.putExtra("reponse", reponse);
                         startActivity(i);
 
@@ -68,15 +68,12 @@ public class NewDestination extends AppCompatActivity  {
         }
     }
 
-
     public void intentAddress (View v){
         Intent i = new Intent(this,NewAdress.class);
         startActivity(i);
-
     }
 
     public void intentMenu (View v){
-        Intent i = new Intent(this,MainActivity.class);
-        startActivity(i);
+        finish();
     }
 }

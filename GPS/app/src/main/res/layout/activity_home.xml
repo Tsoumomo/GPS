@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="be.toutoum.helb.gps.HomeActivity"
+    android:background="@drawable/parchemin2">
+
+
+    <Button
+        android:layout_marginTop="15dp"
+        android:id="@+id/bBookmark"
+        android:background="@drawable/bookmark"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:onClick="intentFavoris"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:id="@+id/bHistory"
+        android:background="@drawable/history2"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_marginTop="32dp"
+        android:onClick="intentHistorique"
+        android:layout_below="@+id/bBookmark"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:text="@string/textViewHistorique"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tvHistory"
+        android:layout_alignBaseline="@+id/bHistory"
+        android:layout_alignBottom="@+id/bHistory"
+        android:layout_alignStart="@+id/tvBookmark"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+        android:textStyle="normal|bold"
+        android:textAllCaps="false" />
+
+    <Button
+        android:id="@+id/bNew"
+        android:background="@drawable/shieldadd"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_marginTop="33dp"
+        android:onClick="intentNouveau"
+        android:layout_below="@+id/bHistory"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:text="@string/textViewNouveau"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tvNew"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+        android:textStyle="normal|bold"
+        android:textAllCaps="false"
+        android:layout_alignBaseline="@+id/bNew"
+        android:layout_alignBottom="@+id/bNew"
+        android:layout_toEndOf="@+id/bNew" />
+
+    <Button
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:id="@+id/bMenu"
+        android:background="@drawable/potatos"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true" />
+
+    <TextView
+        android:text="@string/textViewFavoris"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tvBookmark"
+        android:typeface="normal"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+        android:textStyle="normal|bold"
+        android:textAllCaps="false"
+        android:layout_alignBaseline="@+id/bBookmark"
+        android:layout_alignBottom="@+id/bBookmark"
+        android:layout_toEndOf="@+id/bBookmark" />
+
+</RelativeLayout>
