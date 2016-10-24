@@ -11,58 +11,68 @@
     tools:context="be.toutoum.helb.gps.NewAdress"
     android:background="@drawable/parchemin2">
 
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:text="N°"
+        android:ems="10"
+        android:layout_marginTop="52dp"
+        android:id="@+id/etNum"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:text="Pays"
+        android:ems="10"
+        android:id="@+id/etCountry"
+        android:layout_below="@+id/etTown"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true" />
+
     <Button
-        android:layout_alignParentBottom="true"
-        android:layout_alignParentEnd="true"
-        android:layout_marginEnd="18dp"
-        android:layout_marginBottom="32dp"
-        android:id="@+id/butMenu"
+        android:id="@+id/bMenu"
         android:onClick="intentBack"
         android:background="@drawable/potatos"
         android:layout_width="80dp"
-        android:layout_height="80dp" />
-
-    <EditText
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:inputType="textPersonName"
-        android:text="Adresse"
-        android:ems="10"
-        android:layout_marginTop="52dp"
-        android:id="@+id/editText"
-        android:layout_alignParentTop="true"
-        android:layout_alignParentStart="true" />
+        android:layout_height="80dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true" />
 
     <EditText
         android:layout_height="wrap_content"
         android:inputType="textPersonName"
-        android:text="Rue + N°"
+        android:text="Rue"
         android:ems="10"
-        android:id="@+id/editText3"
+        android:id="@+id/etStreet"
         android:layout_width="200dp"
-        android:layout_below="@+id/editText"
+        android:layout_below="@+id/etNum"
         android:layout_alignParentStart="true"
-        android:layout_alignEnd="@+id/editText" />
+        android:layout_alignParentEnd="true" />
 
     <EditText
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:inputType="textPersonName"
-        android:text="Code Postal et ville"
+        android:text="Ville"
         android:ems="10"
-        android:layout_below="@+id/editText3"
+        android:id="@+id/etTown"
+        android:layout_below="@+id/etStreet"
         android:layout_alignParentStart="true"
-        android:id="@+id/editText4" />
+        android:layout_alignParentEnd="true" />
 
     <Button
         android:text=""
-        android:layout_width="70dp"
-        android:layout_height="70dp"
-        android:id="@+id/butSearch"
+        android:id="@+id/bStart"
         android:background="@drawable/start"
-        android:layout_marginBottom="33dp"
-        android:layout_above="@+id/butMenu"
         android:onClick="intentMap"
-        android:layout_alignEnd="@+id/editText4"
-        android:layout_marginEnd="24dp" />
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_above="@+id/bMenu"
+        android:layout_centerHorizontal="true" />
+
 </RelativeLayout>

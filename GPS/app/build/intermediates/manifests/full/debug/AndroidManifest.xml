@@ -67,7 +67,7 @@
         <activity android:name="be.toutoum.helb.gps.Favoris" />
         <activity android:name="be.toutoum.helb.gps.Historique" />
         <activity android:name="be.toutoum.helb.gps.NewDestination" />
-        <activity android:name="be.toutoum.helb.gps.SearchByKeyword" />
+        <activity android:name="be.toutoum.helb.gps.NewKeyWordActivity" />
         <activity android:name="be.toutoum.helb.gps.NewAdress" />
         <!--
              The API key for Google Maps-based APIs is defined as a string resource.

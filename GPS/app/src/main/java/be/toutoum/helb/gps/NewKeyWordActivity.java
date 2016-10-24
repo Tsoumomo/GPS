@@ -13,10 +13,10 @@ public class NewKeyWordActivity extends AppCompatActivity {
         setContentView(R.layout.activity_new_key_word);
     }
 
-    public void intentMap (View v){
+    /*public void intentMap (View v){
         Intent i = new Intent(this,MapsActivity.class);
         startActivity(i);
-    }
+    }*/
 
     public void intentBack (View v){
         Intent i = new Intent(this,NewDestination.class);

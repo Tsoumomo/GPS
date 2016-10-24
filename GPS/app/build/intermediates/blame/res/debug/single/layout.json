@@ -32,6 +32,10 @@
         "source": "C:\\Users\\thoma\\Desktop\\GPS\\trunk\\GPS\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.0.0\\res\\layout\\abc_list_menu_item_layout.xml"
     },
     {
+        "merged": "C:\\Users\\thoma\\Desktop\\GPS\\trunk\\GPS\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_history.xml",
+        "source": "C:\\Users\\thoma\\Desktop\\GPS\\trunk\\GPS\\app\\src\\main\\res\\layout\\activity_history.xml"
+    },
+    {
         "merged": "C:\\Users\\thoma\\Desktop\\GPS\\trunk\\GPS\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_alert_dialog_material.xml",
         "source": "C:\\Users\\thoma\\Desktop\\GPS\\trunk\\GPS\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.0.0\\res\\layout\\abc_alert_dialog_material.xml"
     },
@@ -44,12 +48,12 @@
         "source": "C:\\Users\\thoma\\Desktop\\GPS\\trunk\\GPS\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-places\\9.6.1\\res\\layout\\place_autocomplete_item_powered_by_google.xml"
     },
     {
-        "merged": "C:\\Users\\thoma\\Desktop\\GPS\\trunk\\GPS\\app\\build\\intermediates\\res\\merged\\debug\\layout\\cast_intro_overlay.xml",
-        "source": "C:\\Users\\thoma\\Desktop\\GPS\\trunk\\GPS\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-cast-framework\\9.6.1\\res\\layout\\cast_intro_overlay.xml"
-    },
-    {
         "merged": "C:\\Users\\thoma\\Desktop\\GPS\\trunk\\GPS\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_media.xml",
         "source": "C:\\Users\\thoma\\Desktop\\GPS\\trunk\\GPS\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.0.0\\res\\layout\\notification_template_media.xml"
+    },
+    {
+        "merged": "C:\\Users\\thoma\\Desktop\\GPS\\trunk\\GPS\\app\\build\\intermediates\\res\\merged\\debug\\layout\\cast_intro_overlay.xml",
+        "source": "C:\\Users\\thoma\\Desktop\\GPS\\trunk\\GPS\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-cast-framework\\9.6.1\\res\\layout\\cast_intro_overlay.xml"
     },
     {
         "merged": "C:\\Users\\thoma\\Desktop\\GPS\\trunk\\GPS\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_search_view.xml",
@@ -62,6 +66,10 @@
     {
         "merged": "C:\\Users\\thoma\\Desktop\\GPS\\trunk\\GPS\\app\\build\\intermediates\\res\\merged\\debug\\layout\\cast_help_text.xml",
         "source": "C:\\Users\\thoma\\Desktop\\GPS\\trunk\\GPS\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-cast-framework\\9.6.1\\res\\layout\\cast_help_text.xml"
+    },
+    {
+        "merged": "C:\\Users\\thoma\\Desktop\\GPS\\trunk\\GPS\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_qrcode.xml",
+        "source": "C:\\Users\\thoma\\Desktop\\GPS\\trunk\\GPS\\app\\src\\main\\res\\layout\\activity_qrcode.xml"
     },
     {
         "merged": "C:\\Users\\thoma\\Desktop\\GPS\\trunk\\GPS\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_maps.xml",
@@ -80,6 +88,10 @@
         "source": "C:\\Users\\thoma\\Desktop\\GPS\\trunk\\GPS\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-cast-framework\\9.6.1\\res\\layout\\cast_expanded_controller_activity.xml"
     },
     {
+        "merged": "C:\\Users\\thoma\\Desktop\\GPS\\trunk\\GPS\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_bookmark.xml",
+        "source": "C:\\Users\\thoma\\Desktop\\GPS\\trunk\\GPS\\app\\src\\main\\res\\layout\\activity_bookmark.xml"
+    },
+    {
         "merged": "C:\\Users\\thoma\\Desktop\\GPS\\trunk\\GPS\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_historique.xml",
         "source": "C:\\Users\\thoma\\Desktop\\GPS\\trunk\\GPS\\app\\src\\main\\res\\layout\\activity_historique.xml"
     },
@@ -90,6 +102,10 @@
     {
         "merged": "C:\\Users\\thoma\\Desktop\\GPS\\trunk\\GPS\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_screen_simple_overlay_action_mode.xml",
         "source": "C:\\Users\\thoma\\Desktop\\GPS\\trunk\\GPS\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.0.0\\res\\layout\\abc_screen_simple_overlay_action_mode.xml"
+    },
+    {
+        "merged": "C:\\Users\\thoma\\Desktop\\GPS\\trunk\\GPS\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_home.xml",
+        "source": "C:\\Users\\thoma\\Desktop\\GPS\\trunk\\GPS\\app\\src\\main\\res\\layout\\activity_home.xml"
     },
     {
         "merged": "C:\\Users\\thoma\\Desktop\\GPS\\trunk\\GPS\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_big_media_narrow.xml",
@@ -178,6 +194,10 @@
     {
         "merged": "C:\\Users\\thoma\\Desktop\\GPS\\trunk\\GPS\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_part_chronometer.xml",
         "source": "C:\\Users\\thoma\\Desktop\\GPS\\trunk\\GPS\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.0.0\\res\\layout\\notification_template_part_chronometer.xml"
+    },
+    {
+        "merged": "C:\\Users\\thoma\\Desktop\\GPS\\trunk\\GPS\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_new_key_word.xml",
+        "source": "C:\\Users\\thoma\\Desktop\\GPS\\trunk\\GPS\\app\\src\\main\\res\\layout\\activity_new_key_word.xml"
     },
     {
         "merged": "C:\\Users\\thoma\\Desktop\\GPS\\trunk\\GPS\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_lines.xml",

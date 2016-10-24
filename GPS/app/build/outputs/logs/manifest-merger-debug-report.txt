@@ -107,10 +107,10 @@ activity#be.toutoum.helb.gps.NewDestination
 ADDED from C:\Users\thoma\Desktop\GPS\trunk\GPS\app\src\main\AndroidManifest.xml:28:9-52
 	android:name
 		ADDED from C:\Users\thoma\Desktop\GPS\trunk\GPS\app\src\main\AndroidManifest.xml:28:19-49
-activity#be.toutoum.helb.gps.SearchByKeyword
-ADDED from C:\Users\thoma\Desktop\GPS\trunk\GPS\app\src\main\AndroidManifest.xml:29:9-53
+activity#be.toutoum.helb.gps.NewKeyWordActivity
+ADDED from C:\Users\thoma\Desktop\GPS\trunk\GPS\app\src\main\AndroidManifest.xml:29:9-56
 	android:name
-		ADDED from C:\Users\thoma\Desktop\GPS\trunk\GPS\app\src\main\AndroidManifest.xml:29:19-50
+		ADDED from C:\Users\thoma\Desktop\GPS\trunk\GPS\app\src\main\AndroidManifest.xml:29:19-53
 activity#be.toutoum.helb.gps.NewAdress
 ADDED from C:\Users\thoma\Desktop\GPS\trunk\GPS\app\src\main\AndroidManifest.xml:30:9-47
 	android:name
