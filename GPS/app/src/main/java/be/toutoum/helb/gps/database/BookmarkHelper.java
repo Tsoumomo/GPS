@@ -1,6 +1,5 @@
 package be.toutoum.helb.gps.database;
 
-
 import android.content.Context;
 import android.database.sqlite.SQLiteDatabase;
 import android.database.sqlite.SQLiteOpenHelper;
@@ -11,8 +10,8 @@ public class BookmarkHelper extends SQLiteOpenHelper {
             + BookMarkAdapter.tableName + " ( "
             + BookMarkAdapter.colonne_id + " INTEGER PRIMARY KEY AUTOINCREMENT, "
             + BookMarkAdapter.colonne_Name + " TEXT NOT NULL, "
-            + BookMarkAdapter.colonne_Latitude + " LONG NULL, "
-            + BookMarkAdapter.colonne_Longitude + " LONG NULL )";
+            + BookMarkAdapter.colonne_Latitude + " TEXT NOT NULL, "
+            + BookMarkAdapter.colonne_Longitude + " TEXT NOT NULL )";
 
     public BookmarkHelper(Context context, String name, SQLiteDatabase.CursorFactory factory, int version) {
         super(context, name, factory, version);
@@ -24,7 +23,8 @@ public class BookmarkHelper extends SQLiteOpenHelper {
     }
 
     @Override
-    public void onUpgrade(SQLiteDatabase sqLiteDatabase, int i, int i1) {
-
+    public void onUpgrade(SQLiteDatabase db, int i, int i1) {
+        db.execSQL("DROP TABLE " + BookMarkAdapter.tableName + ";");
+        onCreate(db);
     }
 }

@@ -20,18 +20,18 @@ public class BookmarkActivity extends AppCompatActivity {
     @Override
     protected void onStart() {
         super.onStart();
-        ListView lv = (ListView) findViewById(R.id.lvHistory);
+        ListView lv = (ListView) findViewById(R.id.lvBookmark);
 
         BookMarkAdapter adapt = new BookMarkAdapter(getApplicationContext());
         adapt.openWritable();
 
         Cursor c = adapt.getAllChar();
-        String[] from = { adapt.colonne_Name};
-        int[] to = { android.R.id.text1};
+        String[] from = { adapt.colonne_Name };
+        int[] to = { android.R.id.text1 };
 
         SimpleCursorAdapter sc = new SimpleCursorAdapter(
                 getApplicationContext(),
-                android.R.layout.simple_expandable_list_item_2, c, from, to);
+                android.R.layout.simple_expandable_list_item_1, c, from, to);
 
         lv.setAdapter(sc);
         adapt.close();

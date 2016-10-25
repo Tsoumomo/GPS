@@ -74,6 +74,7 @@ public class NewDestination extends AppCompatActivity  {
     }
 
     public void intentMenu (View v){
-        finish();
+        Intent i = new Intent(this,HomeActivity.class);
+        startActivity(i);
     }
 }

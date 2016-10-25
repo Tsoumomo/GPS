@@ -16,9 +16,21 @@
         android:label="@string/app_name"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
+        <activity android:name=".HomeActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".BDActivity" />
+        <activity android:name=".BookmarkActivity" />
+        <activity android:name=".HistoryActivity" />
+        <activity android:name=".NewAdress" />
         <activity android:name=".NewDestination" />
         <activity android:name=".NewKeyWordActivity" />
-        <activity android:name=".NewAdress" />
+        <activity android:name=".QRCodeActivity" />
         <!--
              The API key for Google Maps-based APIs is defined as a string resource.
              (See the file "res/values/google_maps_api.xml").

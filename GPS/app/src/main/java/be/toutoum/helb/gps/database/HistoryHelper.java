@@ -9,9 +9,9 @@ public class HistoryHelper extends SQLiteOpenHelper {
     private final String CREAT_REQUEST = "CREATE TABLE "
             + HistoryAdapter.tableName + " ( "
             + HistoryAdapter.colonne_id + " INTEGER PRIMARY KEY AUTOINCREMENT, "
-            + HistoryAdapter.colonne_Number + " INT NULL, "
+            + HistoryAdapter.colonne_Number + " INTEGER NULL, "
             + HistoryAdapter.colonne_Street + " TEXT NOT NULL, "
-            + HistoryAdapter.colonne_Town + " INT NULL, "
+            + HistoryAdapter.colonne_Town + " TEXT NOT NULL, "
             + HistoryAdapter.colonne_Country + " TEXT NOT NULL )";
 
     public HistoryHelper(Context context, String name, SQLiteDatabase.CursorFactory factory, int version) {
@@ -24,8 +24,9 @@ public class HistoryHelper extends SQLiteOpenHelper {
     }
 
     @Override
-    public void onUpgrade(SQLiteDatabase sqLiteDatabase, int i, int i1) {
-
+    public void onUpgrade(SQLiteDatabase db, int oldVersion, int newVersion) {
+        db.execSQL("DROP TABLE " + HistoryAdapter.tableName + ";");
+        onCreate(db);
     }
 }
 

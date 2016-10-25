@@ -32,7 +32,7 @@ public class HistoryActivity extends AppCompatActivity {
 
         SimpleCursorAdapter sc = new SimpleCursorAdapter(
                 getApplicationContext(),
-                android.R.layout.simple_expandable_list_item_2, c, from, to);
+                android.R.layout.simple_expandable_list_item_1, c, from, to);
 
         lv.setAdapter(sc);
         adapt.close();

@@ -4,6 +4,8 @@ import android.content.ContentValues;
 import android.content.Context;
 import android.database.Cursor;
 import android.database.sqlite.SQLiteDatabase;
+import android.text.LoginFilter;
+import android.util.Log;
 
 import be.toutoum.helb.gps.model.History;
 
@@ -56,4 +58,5 @@ public class HistoryAdapter {
         public void delall() {
             db.delete(tableName, null, null);
         }
+
     }
