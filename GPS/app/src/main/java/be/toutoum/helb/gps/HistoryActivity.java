@@ -4,10 +4,14 @@ import android.database.Cursor;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
+import android.widget.ArrayAdapter;
 import android.widget.ListView;
 import android.widget.SimpleCursorAdapter;
 
-import be.toutoum.helb.gps.database.HistoryAdapter;
+import java.util.List;
+
+import be.toutoum.helb.gps.database.PlaceAdapter;
+import be.toutoum.helb.gps.model.Place;
 
 public class HistoryActivity extends AppCompatActivity {
 
@@ -23,19 +27,17 @@ public class HistoryActivity extends AppCompatActivity {
 
         ListView lv = (ListView) findViewById(R.id.lvHistory);
 
-        HistoryAdapter adapt = new HistoryAdapter(getApplicationContext());
+        PlaceAdapter adapt = new PlaceAdapter(getApplicationContext());
         adapt.openWritable();
 
-        Cursor c = adapt.getAllChar();
-        String[] from = { adapt.colonne_Street, adapt.colonne_Number };
-        int[] to = { android.R.id.text1, android.R.id.text2 };
+        List<Place> list = adapt.getAllBookmark();
 
-        SimpleCursorAdapter sc = new SimpleCursorAdapter(
-                getApplicationContext(),
-                android.R.layout.simple_expandable_list_item_1, c, from, to);
-
-        lv.setAdapter(sc);
         adapt.close();
+
+        ArrayAdapter<Place> arrayAdapter =
+                new ArrayAdapter<Place>(this, android.R.layout.simple_list_item_1, list);
+
+        lv.setAdapter(arrayAdapter);
     }
 
     public void intentMenu (View v){

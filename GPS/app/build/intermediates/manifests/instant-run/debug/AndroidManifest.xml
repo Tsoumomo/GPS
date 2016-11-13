@@ -58,18 +58,20 @@
         android:label="@string/app_name"
         android:supportsRtl="true"
         android:theme="@style/AppTheme" >
-        <activity android:name="be.toutoum.helb.gps.MainActivity" >
+        <activity android:name="be.toutoum.helb.gps.HomeActivity" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name="be.toutoum.helb.gps.Favoris" />
-        <activity android:name="be.toutoum.helb.gps.Historique" />
-        <activity android:name="be.toutoum.helb.gps.NewDestination" />
-        <activity android:name="be.toutoum.helb.gps.SearchByKeyword" />
+        <activity android:name="be.toutoum.helb.gps.BDActivity" />
+        <activity android:name="be.toutoum.helb.gps.BookmarkActivity" />
+        <activity android:name="be.toutoum.helb.gps.HistoryActivity" />
         <activity android:name="be.toutoum.helb.gps.NewAdress" />
+        <activity android:name="be.toutoum.helb.gps.NewDestination" />
+        <activity android:name="be.toutoum.helb.gps.NewKeyWordActivity" />
+        <activity android:name="be.toutoum.helb.gps.QRCodeActivity" />
         <!--
              The API key for Google Maps-based APIs is defined as a string resource.
              (See the file "res/values/google_maps_api.xml").
@@ -82,9 +84,6 @@
             android:name="com.google.android.geo.API_KEY"
             android:value="@string/google_maps_key" />
 
-        <activity
-            android:name="be.toutoum.helb.gps.MapsActivity"
-            android:label="@string/title_activity_maps" />
         <activity android:name="be.toutoum.helb.gps.BDActivity" />
         <!-- Include the AdActivity and InAppPurchaseActivity configChanges and themes. -->
         <activity
